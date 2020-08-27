@@ -13,6 +13,7 @@ const Modal = props => {
       </strong>
     </h2>
   );
+
   return (
     <Fragment>
       <Backdrop visible={props.gameOver} />
