@@ -110,6 +110,7 @@ class Main extends Component {
           gameWon={this.state.gameWon}
           gameOver={this.state.gameOver}
           playAgain={this.playAgain}
+          secretWord={this.state.secretWord}
         />
         <Letters answerArray={this.state.answerArray} />
       </Fragment>
