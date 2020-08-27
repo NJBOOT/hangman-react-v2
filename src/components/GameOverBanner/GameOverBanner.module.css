@@ -1,0 +1,19 @@
+.GameOverBanner {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  opacity: 1;
+  transition: all 5s linear;
+}
+
+.Lost {
+  color: red;
+}
+
+.Won {
+  color: green;
+}
+
+.Fade {
+  opacity: 0;
+}
